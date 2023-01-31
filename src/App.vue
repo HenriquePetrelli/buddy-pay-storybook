@@ -2,10 +2,11 @@
   <main>
     <h1>awdawd</h1>
 
-    <Input
-      label="firstname"
+    
+     <Input
+      label="name"
       :input-attributes="{
-        placeholder: 'Enter your firstname...',
+        placeholder: 'Enter your second...',
         type: 'text',
         autocomplete: 'given-name',
       }"

@@ -1,8 +1,11 @@
 {
   "name": "buddy-pay-storybook",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Biblioteca de componentes para projeto pessoal",
-  "main": "index.js",
+  "files": ["dist"],
+  "main": "dist/buddy-pay-components.umd.js",
+  "module": "dist/buddy-pay-components.es.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
